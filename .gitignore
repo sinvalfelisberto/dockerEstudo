@@ -1,0 +1,39 @@
+### VS Code ###
+.vscode/
+*.code-workspace
+/*************  ✨ Codeium Command ⭐  *************/
+### PHP ###
+vendor/
+composer.lock
+
+### Node ###
+node_modules/
+npm-debug.log
+yarn-error.log
+
+### macOS ###
+.DS_Store
+
+### Logs ###
+logs/
+*.log
+
+### Operating System ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Backup files ###
+*.bak
+*.swp
+*.swo
+
+### Docker ###
+docker-compose.override.yml
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+/******  e2d144ae-67d9-45e3-9e29-42df06ee50ab  *******/

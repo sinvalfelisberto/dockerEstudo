@@ -1,0 +1,15 @@
+services:
+  php-server:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    container_name: php-server
+    volumes:
+      - ./project:/var/www/html
+    ports:
+      - "80:80"
+    networks:
+      - agregadorinvestimentos_default
+networks:
+  agregadorinvestimentos_default:
+    external: true
